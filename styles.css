@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f141e;
+}
+
+.navbar {
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #181c24;
+    padding: 8px 16px;
+    border-radius: 20px;
+    width: 450px;
+    border: solid 2px #1e2636;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+.button {
+    font-size: medium;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.button:hover {
+    color: red;
+}
+.logo {
+    width: 150px;
+    height: auto; 
+    margin-left: 30px;
+}
+.container {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.kayitOlButton{
+    background-color: #181c24;
+    height: 30spx;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #181c24;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: solid 2px #1e2636;
+    display: flex;
+    margin-right: 30px;
+    color: #fff;
+    text-decoration: none;
+
+}
+.kayitOlButton:hover {
+    color: red;
+}
+.oturumacButton{
+    background-color: #181c24;
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0f141e;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: solid 2px #0f141e;
+    display: flex;
+    margin-right: 30px;
+    color: #fff;
+    text-decoration: none;
+
+}
+.oturumacButton:hover {
+    color: red;
+}
+
+.diger-buttons{
+    display: flex;
+}
+.metin{
+padding-top: 150px;;
+    text-align: center;
+    justify-content: space-around;
+}
+.ilk {
+    color: #50bccc;   
+    font-size: 60px; 
+}
+.son {
+    color: white; 
+    font-size: 60px; 
+    margin-top: 10px; 
+}
+
+.kucukMetin{
+    color: gray;
+    margin-top: 20px; 
+    font-size: 20px; 
+}
+.diger-buttons2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+/************HALKALAR********/ 
+.container2 {
+    
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    justify-content:center;
+}
+
+.telefon {
+    max-width: 400px;
+    height: auto;
+}
+.kart2, .kart1, .halkalar, .kart3, .kart4 {
+    margin: 5px; 
+}
+
+.kart2 img, .kart1 img, .kart3 img, .kart4 img {
+    display: block;
+    max-width: 100%; 
+    width: 245px; 
+    height: auto; 
+}
+
